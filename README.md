@@ -88,7 +88,9 @@ python manage.py runserver
    /輸入"python manage.py "
 ```
 <br>
+
 做這些步驟的原因是因為我們後續創建User帳戶的時候是使用email與password作為登入選項  
 但是如果不先修改models.py的USERNAME_FIELD的話，在創建管理員帳戶的時候會缺少username這個選項  
 進而導致帳戶創建失敗，於是必須先透過以上步驟來進行修改才能創建管理員帳戶  
+
 <br>
