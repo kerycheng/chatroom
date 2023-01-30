@@ -10,13 +10,11 @@
  * [資料庫重新創建](#database)
  * [第三方快速登入](#thirdpartylogin)
   
-<br>
 
 <h2 id"overview">概述</h2>
 
 具有用戶註冊、第三方快速登入功能，可在聊天室上發布文章並在底下進行回覆。
 
-<br>
 
 <h3 id"site">專案引用</h3>
 
@@ -24,7 +22,7 @@
 
 <br>
 
-<h3 id"install">套件安裝</h3>  
+<h2 id"install">套件安裝</h2>  
 
 請先安裝以下套件  
 
@@ -45,9 +43,11 @@ pip install django-sslserver
 pip install pillow  
 ```
 <br>
-<h3 id"use">使用說明</h3>
+
+<h2 id"use">使用說明</h2>
 
 <h4 id="#runserver">網站伺服器開啟</h4>
+
 ```bash
 # for https:
 python manage.py sslrunserver
