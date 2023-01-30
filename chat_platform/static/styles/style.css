@@ -816,6 +816,32 @@ a {
 /*==============================
 =>  Auth
 ================================*/
+.third-login {
+    align-items: center;
+    display: inline-flex;
+}
+
+.third-login .github-login {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.third-login .google-login {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.google-txt {
+    margin: 5px;
+}
+
+.github-txt {
+    margin: 5px;
+}
 
 .auth__tagline {
   text-align: center;
@@ -850,6 +876,21 @@ a {
 
 .form__group form__group p {
     list-style-type: none;
+}
+
+.or {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.or .or-line {
+    display: inline-block;
+    width: 35%;
+    border-top: 3px solid #82B3D5;
+}
+.or .or-txt {
+    color: #fff;
+    vertical-align: middle;
 }
 
 /*==============================
