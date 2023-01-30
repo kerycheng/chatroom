@@ -47,7 +47,7 @@ pip install pillow
 <br>
 <h3 id"use">使用說明</h3>
 
---> [網站伺服器開啟](#runserver)：
+<h4 id="#runserver">網站伺服器開啟</h4>
 ```bash
 # for https:
 python manage.py sslrunserver
@@ -56,7 +56,7 @@ python manage.py runserver
 ```
 <br>
 
---> [資料庫重新創建(並創建管理員帳號)，請按照以下步驟執行：](#database)
+<h4 id="#database">資料庫重新創建(並創建管理員帳號)，請按照以下步驟執行：</h4>
 
 ```
 #1 將bd.sqlite3與migrations的0001_initial.py刪除
@@ -99,7 +99,7 @@ python manage.py runserver
 
 <br>
 
---> [關於第三方帳號快速登入的設定](#thirdpartylogin)
+<h4 id="#thirdpartylogin">關於第三方帳號快速登入的設定</h4>
 
 需要先至[Google Cloud](https://console.cloud.google.com/welcome?project=modified-badge-272616&hl=zh-tw)與[GitHub Develpers](https://github.com/settings/developers)申請OAuth apps
 
