@@ -6,6 +6,9 @@
   * [專案引用](#site)  
 * [套件安裝](#install)  
 * [使用說明](#use)  
+ * [網站伺服器開啟](#runserver)
+ * [資料庫重新創建](#database)
+ * [第三方快速登入](#thirdpartylogin)
   
 <br>
 
@@ -44,7 +47,7 @@ pip install pillow
 <br>
 <h3 id"use">使用說明</h3>
 
---> 網站伺服器開啟：
+--> [網站伺服器開啟](#runserver)：
 ```bash
 # for https:
 python manage.py sslrunserver
@@ -52,7 +55,8 @@ python manage.py sslrunserver
 python manage.py runserver
 ```
 <br>
---> 資料庫重新創建(並創建管理員帳號)，請按照以下步驟執行：
+
+--> [資料庫重新創建(並創建管理員帳號)，請按照以下步驟執行：](#database)
 
 ```
 #1 將bd.sqlite3與migrations的0001_initial.py刪除
@@ -94,3 +98,11 @@ python manage.py runserver
 進而導致帳戶創建失敗，於是必須先透過以上步驟來進行修改才能創建管理員帳戶  
 
 <br>
+
+--> [關於第三方帳號快速登入的設定](#thirdpartylogin)
+
+需要先至[Google Cloud](https://console.cloud.google.com/welcome?project=modified-badge-272616&hl=zh-tw)與[GitHub Develpers](https://github.com/settings/developers)申請OAuth apps
+
+關於如何申請Google的API可以參考這篇文章的前半部分： [[ASP.NET] 如何串接 Google Api 帳戶登入](https://blog.hungwin.com.tw/aspnet-google-login/)
+
+GitHub可以參考這篇文章： [Day30 : Django 第三方登入 - 以Github為例](https://ithelp.ithome.com.tw/articles/10206389)
