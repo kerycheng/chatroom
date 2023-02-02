@@ -1,6 +1,7 @@
 # 網路聊天室 Online Chat Room  
 
-[網頁DEMO連結(關閉中)](https:/)  
+[網頁DEMO連結](https://marginlmanchatroom.ddns.net/)  
+
 
 * [概述](#overview)  
   * [專案引用](#site)  
@@ -24,24 +25,12 @@
 
 <h2 id"install">套件安裝</h2>  
 
-請先安裝以下套件  
+一鍵安裝套件  
 
 ```bash
-pip install Django  
+pip3 install -r requirements.txt
 ```
 
-```bash
-pip install django-allauth  
-```
-```bash
-pip install django-cors-headers  
-```
-```bash
-pip install django-sslserver  
-```
-```bash
-pip install pillow  
-```
 <br>
 
 <h2 id"use">使用說明</h2>
