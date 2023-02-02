@@ -1,6 +1,6 @@
 # 網路聊天室 Online Chat Room  
 
-[網頁DEMO連結](https://45f7-61-221-120-65.jp.ngrok.io/)  
+[網頁DEMO連結(關閉中)](https:/)  
 
 * [概述](#overview)  
   * [專案引用](#site)  
