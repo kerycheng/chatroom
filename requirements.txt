@@ -1,0 +1,7 @@
+Django==4.1.5
+Pillow==9.4.0
+django-allauth==0.52.0
+django-cor-headers=3.13.0
+django-sslserver==0.22
+djangorestframework==3.14.0
+gunicorn==20.1.0
