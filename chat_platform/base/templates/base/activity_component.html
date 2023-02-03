@@ -10,7 +10,11 @@
           <img src="{{message.user.avatar.url}}" />
         </div>
         <p>
-          @{{message.user.username}}
+          {% if message.name == None %}
+          {{message.user.username}}
+          {% else %}
+          {{message.user.name}}
+          {% endif %}
           <span>{{message.created|timesince}}前</span>
         </p>
       </a>

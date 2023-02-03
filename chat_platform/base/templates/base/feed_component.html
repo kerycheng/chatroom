@@ -5,7 +5,11 @@
       <div class="avatar avatar--small">
         <img src="{{room.host.avatar.url}}" />
       </div>
-      <span>@{{room.host.username}}</span>
+      {% if room.host.name == None %}
+      <span>{{room.host.username}}</span>
+      {% else %}
+      <span>{{room.host.name}}</span>
+      {% endif %}
     </a>
     <div class="roomListRoom__actions">
       <span>{{room.created|timesince}} 前</span>
