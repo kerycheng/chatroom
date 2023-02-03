@@ -100,8 +100,5 @@ GitHub可以參考這篇文章： [Day30 : Django 第三方登入 - 以Github為
 
 <h4 id="#TODO">TODO</h4>
 
-* 頭像圖片無法正常顯示  
-* request 413  
-* 暱稱無法正常顯示  
 * 文章換行  
 * 增加忘記密碼功能  
