@@ -10,6 +10,7 @@
  * [網站伺服器開啟](#runserver)
  * [資料庫重新創建](#database)
  * [第三方快速登入](#thirdpartylogin)
+ * [TODO](#TODO)
   
 
 <h2 id"overview">概述</h2>
@@ -95,3 +96,12 @@ python manage.py runserver
 關於如何申請Google的API可以參考這篇文章的前半部分： [[ASP.NET] 如何串接 Google Api 帳戶登入](https://blog.hungwin.com.tw/aspnet-google-login/)
 
 GitHub可以參考這篇文章： [Day30 : Django 第三方登入 - 以Github為例](https://ithelp.ithome.com.tw/articles/10206389)
+
+
+<h4 id="#TODO">TODO</h4>
+
+* 頭像圖片無法正常顯示  
+* request 413  
+* 暱稱無法正常顯示  
+* 文章換行  
+* 增加忘記密碼功能  
