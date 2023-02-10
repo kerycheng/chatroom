@@ -13,18 +13,18 @@
  * [TODO](#TODO)
   
 
-<h2 id"overview">概述</h2>
+<h2 id="overview">概述</h2>
 
 具有用戶註冊、第三方快速登入功能，可在聊天室上發布文章並在底下進行回覆。
 
 
-<h3 id"site">專案引用</h3>
+<h3 id="site">專案引用</h3>
 
 本網站主要參考[StudyBud](https://github.com/divanov11/StudyBud/)這個專案，並加以修改、完善。
 
 <br>
 
-<h2 id"install">套件安裝</h2>  
+<h2 id="install">套件安裝</h2>  
 
 一鍵安裝套件  
 
@@ -34,7 +34,7 @@ pip3 install -r requirements.txt
 
 <br>
 
-<h2 id"use">使用說明</h2>
+<h2 id="use">使用說明</h2>
 
 <h4 id="#runserver">網站伺服器開啟</h4>
 
